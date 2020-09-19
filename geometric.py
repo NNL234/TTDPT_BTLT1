@@ -35,9 +35,4 @@ def approxEntropy(N,p):
 N = 10
 p = 0.9
 print(sumProb(N,p))
-# sum = 0
-# for x in range (1,10):
-#     sum += x
-
-# print(sum/10)
 print(approxEntropy(N,p))
