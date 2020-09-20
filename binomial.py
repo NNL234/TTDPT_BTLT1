@@ -42,7 +42,3 @@ def approxEntropy(N,p):
         s += infoMeasure(N,p,i) * prob(N,p,i)
 
     return s
-
-
-print(sumProb(10,0.8))
-print(approxEntropy(10,0.5))
